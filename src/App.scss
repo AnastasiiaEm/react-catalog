@@ -1,3 +1,25 @@
-.starter {
-  font-size: 18px;
+@import './styles/utils';
+@import './styles/fonts';
+@import './styles/reset';
+
+.page {
+  font-family: 'Mont Regular', sans-serif;
+  font-size: 12px;
+  color: $color-primary-dark;
+  cursor: url('./assets/images/cursor.svg'), auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  & > main {
+    flex: 1 1 auto;
+  }
+}
+
+body {
+  &:has(.side-nav--shown) {
+    overflow: hidden;
+  }
 }

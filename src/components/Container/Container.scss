@@ -1,0 +1,18 @@
+@import '../../styles/utils';
+
+.container {
+  margin-inline: auto;
+  max-width: 1136px;
+
+  @include onDesktopSmall {
+    padding-inline: 70px;
+  }
+
+  @include onTablet {
+    padding-inline: 34px;
+  }
+
+  @include onMobile {
+    padding-inline: 30px;
+  }
+}
