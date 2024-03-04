@@ -13,15 +13,14 @@ export const ButtonSquare: React.FC<Props> = ({
   isDisabled,
 }) => {
   return (
-    <button type="button" className="button-square" onClick={onAction}>
-      <span
-        className={classNames(
-          `button-square__icon button-square__icon--${icon}`,
-          {
-            'button-square--disabled': isDisabled,
-          },
-        )}
-      />
+    <button
+      type="button"
+      className={classNames('button-square', {
+        'button-square--disabled': isDisabled,
+      })}
+      onClick={onAction}
+    >
+      <span className={`button-square__icon button-square__icon--${icon}`} />
     </button>
   );
 };

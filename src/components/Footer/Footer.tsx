@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
             </li>
             <li className="footer__item">
               <a
-                href="https://github.com/AnastasiiaEm"
+                href="https://github.com/AnastasiiaEm/react-catalog"
                 target="_blank"
                 rel="noreferrer"
                 className="footer__link"

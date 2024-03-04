@@ -5,7 +5,7 @@ export const AMOUNT_OF_PRODUCT_CARDS = 4;
 
 export const SORT_OPTIONS = ['Newest', 'Alphabetically', 'Cheapest'];
 
-export const ITEMS_ON_PAGE = ['4', '8', '16', 'all'];
+export const ITEMS_ON_PAGE = ['8', '16', '32', 'all'];
 
 export const PRODUCTS_COLORS: { [color:string]: string } = {
   black: '#4C4C4C',
